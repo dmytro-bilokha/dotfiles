@@ -1,0 +1,10 @@
+Include: /usr/local/etc/a2ps.cfg
+AppendLibraryPath: /usr/local/share/myfonts/URW-Cyr-1.0.7
+AppendLibraryPath: /usr/local/share/ghostscript/fonts
+AppendLibraryPath: /usr/share/groff-font/devps
+AppendLibraryPath: /usr/X11R6/lib/X11/fonts/Type1
+AppendLibraryPath: /usr/X11R6/lib/X11/fonts/myType1
+Options: --medium=A4
+Options: --encoding=koi8-u
+Options: -R
+Options: -1

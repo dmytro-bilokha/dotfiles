@@ -1,0 +1,13 @@
+include '/usr/home/dimon/.gtkrc.mine'
+style "user-font"
+{
+font_name="Anonymous Pro 13"
+#font_name="Terminus 12"
+}
+widget_class "*" style "user-font"
+gtk-font-name="Anonymous Pro 13"
+#gtk-font-name="Terminus 12"
+
+#gtk-theme-name = "Numix Solarized":dark
+#gtk-theme-name = "SolarizedDark"
+gtk-theme-name = "solarized-dark-gtk-master"
