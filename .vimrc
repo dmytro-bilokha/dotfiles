@@ -8,10 +8,11 @@
 :filetype plugin on
 :autocmd FileType c,cpp :set cindent
 :autocmd FileType python :set softtabstop=4 shiftwidth=4 expandtab autoindent
+:map <F6> }{!}fmt -75<CR>}
 :nmap <F7> :w<CR>:!xmllint --format --recover %<CR>:e<CR>
 :nmap <F8> :w<CR>:!aspell --lang=ru -e -c %<CR>:e<CR>
 :nmap <F9> :w<CR>:!aspell --lang=uk -e -c %<CR>:e<CR>
-:map <F6> }{!}fmt -75<CR>}
+:nmap <F10> :w<CR>:!aspell --lang=en -e -c %<CR>:e<CR>
 :set keymap=russian-jcukenwin
 :set iminsert=0
 :set imsearch=0
